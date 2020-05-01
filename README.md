@@ -8,7 +8,46 @@
 ```
 docker pull cloudcustodian/c7n
 ```
+### Example policy: sg-remove-open.yml
+```
+policies:
+  - name: sg-remove-open
+    resource: security-group
+    description: |
+      Remove any rule from a security group that allows 0.0.0.0/0 or ::/0 (IPv6) ingress.
+    mode:
+        type: cloudtrail
+        role: custodian-ec2-role
+        events:
+          - source: ec2.amazonaws.com
+            event: AuthorizeSecurityGroupIngress
+            ids: "requestParameters.groupId"
+          - source: ec2.amazonaws.com
+            event: AuthorizeSecurityGroupEgress
+            ids: "requestParameters.groupId"
+          - source: ec2.amazonaws.com
+            event: RevokeSecurityGroupEgress
+            ids: "requestParameters.groupId"
+          - source: ec2.amazonaws.com
+            event: RevokeSecurityGroupIngress
+            ids: "requestParameters.groupId"
+    filters:
+      - or:
+            - type: ingress
+              IpProtocol: tcp
+              Ports: [4441]
+              Cidr:
+                value: "0.0.0.0/0"
+            - type: ingress
+              IpProtocol: tcp
+              Ports: [4441]
+              CidrV6:
+                value: "::/0"
+    actions:
+        - type: remove-permissions
+          ingress: matched
 
+```
 
 ### Usage:
 
