@@ -14,7 +14,7 @@ policies:
   - name: sg-remove-open
     resource: security-group
     description: |
-      Remove any rule from a security group that allows 0.0.0.0/0 or ::/0 (IPv6) ingress.
+      Remove any rule from a security group that allows 0.0.0.0/0 or ::/0 (IPv6) ingress on tcp port 4441.
     mode:
         type: cloudtrail
         role: custodian-ec2-role
