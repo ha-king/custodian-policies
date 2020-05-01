@@ -1,0 +1,104 @@
+{
+  "policy": {
+    "name": "tag-compliance",
+    "resource": "aws.ec2",
+    "description": "Schedule a resource that does not meet tag compliance policies\n",
+    "filters": [
+      {
+        "State.Name": "running"
+      },
+      {
+        "tag:Environment": "absent"
+      },
+      {
+        "tag:AppId": "absent"
+      },
+      {
+        "or": [
+          {
+            "tag:OwnerContact": "absent"
+          },
+          {
+            "tag:DeptID": "absent"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "0.9",
+  "execution": {
+    "id": "2dc350fc-5f49-4b04-b188-e090f940484b",
+    "start": 1587056914.5470998,
+    "end_time": 1587056915.5518482,
+    "duration": 1.0047483444213867
+  },
+  "config": {
+    "region": "us-west-1",
+    "regions": [
+      "us-west-1"
+    ],
+    "cache": "~/.cache/cloud-custodian.cache",
+    "profile": null,
+    "account_id": "302099125418",
+    "assume_role": null,
+    "external_id": null,
+    "log_group": null,
+    "tracer": null,
+    "metrics_enabled": null,
+    "metrics": null,
+    "output_dir": "/home/custodian/output",
+    "cache_period": 15,
+    "dryrun": false,
+    "authorization_file": null,
+    "subparser": "run",
+    "config": null,
+    "configs": [
+      "/home/custodian/policy.yml"
+    ],
+    "policy_filters": [],
+    "resource_types": [],
+    "verbose": 1,
+    "quiet": null,
+    "debug": false,
+    "skip_validation": false,
+    "command": "c7n.commands.run",
+    "vars": null
+  },
+  "sys-stats": {
+    "snapshot_time": 1.004777193069458,
+    "num_fds": 1,
+    "cpu_user": 0.1499999999999999,
+    "cpu_system": 0.03999999999999998,
+    "num_ctx_switches_voluntary": 79,
+    "num_ctx_switches_involuntary": 9,
+    "read_count": 203,
+    "write_count": 15,
+    "read_bytes": 12288,
+    "rss": 6819840,
+    "vms": 8540160,
+    "data": 8540160
+  },
+  "api-stats": {
+    "ec2.DescribeInstances": 1
+  },
+  "metrics": [
+    {
+      "MetricName": "ResourceCount",
+      "Timestamp": "2020-04-16T17:08:35.542225",
+      "Value": 15,
+      "Unit": "Count"
+    },
+    {
+      "MetricName": "ResourceTime",
+      "Timestamp": "2020-04-16T17:08:35.542243",
+      "Value": 0.9695291519165039,
+      "Unit": "Seconds"
+    },
+    {
+      "MetricName": "ActionTime",
+      "Timestamp": "2020-04-16T17:08:35.551823",
+      "Value": 6.9141387939453125e-06,
+      "Unit": "Seconds"
+    }
+  ]
+}

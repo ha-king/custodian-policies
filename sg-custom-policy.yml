@@ -1,0 +1,11 @@
+policies:
+  - name: scan-sg-wide-open
+    resource: security-group
+    filters:
+      - type: ingress
+        IpProtocol: tcp
+        Ports: [4441]
+        Cidr: "0.0.0.0/0"
+    actions:
+      - type: remove-permissions
+        ingress: matched

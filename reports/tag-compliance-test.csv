@@ -1,0 +1,21 @@
+2020-04-15 17:17:46,702: custodian.cache:DEBUG Disabling cache
+2020-04-15 17:17:46,702: custodian.commands:DEBUG Loaded file /home/custodian/ebs-snap-policy.yml. Contains 1 policies
+2020-04-15 17:17:46,717: custodian.aws:DEBUG using default region:us-west-1 from boto
+2020-04-15 17:17:47,059: custodian.reports:DEBUG Found 15 records for region us-west-1
+2020-04-15 17:17:47,059: custodian.reports:DEBUG Uniqued from 15 to 15
+CustodianDate,InstanceId,tag:Name,InstanceType,LaunchTime,VpcId,PrivateIpAddress
+2020-04-15 17:04:12,i-00252f8a0affe01a5,g2g-aws-openvpn-prod-01,t2.small,2020-02-28T15:07:05+00:00,vpc-33618854,172.17.1.37
+2020-04-15 17:04:12,i-024b954a3e5f3c737,g2g-aws-jenkins-dev-01,t3.large,2019-06-17T11:33:59+00:00,vpc-b149cad5,10.0.0.227
+2020-04-15 17:04:12,i-0ad10d4cc84f78342,g2g-aws-qb-dev-axia-cp,t2.large,2019-09-11T06:14:24+00:00,vpc-33618854,172.17.1.238
+2020-04-15 17:04:12,i-06308535c0139cb03,Go2group-aws-opsjira-dev-1,t3.large,2019-03-25T12:40:48+00:00,vpc-b149cad5,10.0.0.54
+2020-04-15 17:04:12,i-0be93ab7dd47045c5,g2g-aws-QB--prod-latest,t3.large,2019-09-11T06:17:21+00:00,vpc-33618854,172.17.1.106
+2020-04-15 17:04:12,i-08e3c8c52cb08752e,G2G-Bastion,t2.micro,2017-08-02T23:07:35+00:00,vpc-c90d67ad,172.16.1.221
+2020-04-15 17:04:12,i-0d04ce5c85eddc078,G2G-Zabbix-MGMT,t2.large,2017-11-10T20:26:01+00:00,vpc-c90d67ad,172.16.1.110
+2020-04-15 17:04:12,i-02cbb9338f076c85b,go2group-jira-staging-7135,t3.large,2019-07-11T09:59:01+00:00,vpc-b149cad5,10.0.0.185
+2020-04-15 17:04:12,i-0ce50eea2660d4769,g2g-aws-grafana-prod-01,t2.medium,2020-02-24T10:27:23+00:00,vpc-b149cad5,10.0.0.141
+2020-04-15 17:04:12,i-095dc2e4164674ac6,G2G-Go2Group-Atlassian,m4.2xlarge,2019-04-15T18:40:29+00:00,vpc-c90d67ad,172.16.3.88
+2020-04-15 17:04:12,i-0553aca5db1ce067d,G2G-CA-HP-ALM-OCTANE-12.5,t2.xlarge,2017-08-03T03:29:52+00:00,vpc-906f01f4,10.1.0.94
+2020-04-15 17:04:12,i-0c49eb201951699de,g2g-aws-crowd-prod-01,t3.medium,2019-12-09T10:04:15+00:00,vpc-b149cad5,10.0.0.107
+2020-04-15 17:04:12,i-09cec83ff4ad64dcf,g2g-aws-bamboo-prod-01,t3.large,2019-07-17T08:56:40+00:00,vpc-c90d67ad,172.16.1.27
+2020-04-15 17:04:12,i-0dced82e92d2d6874,G2G-Apache-g2g,m5.large,2018-10-27T17:50:15+00:00,vpc-c90d67ad,172.16.2.84
+2020-04-15 17:04:12,i-025b9d52d73a51aa0,go2group-aws-QB-dev-01,t3.large,2019-03-04T06:48:01+00:00,vpc-33618854,172.17.1.228

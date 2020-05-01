@@ -1,0 +1,10 @@
+policies:
+ - name: ebs-snapshots-older-than-90-days
+   resource: aws.ebs-snapshot
+   filters:
+    - type: age
+      days: 90
+      op: ge  
+    - skip-ami-snapshots
+   actions:
+    - delete

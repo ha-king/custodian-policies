@@ -1,0 +1,20 @@
+2020-04-15 16:10:20,550 - custodian.policy - DEBUG - Running policy:tag-compliance resource:aws.ec2 region:us-west-1 c7n:0.9
+2020-04-15 16:10:22,665 - custodian.output - DEBUG - metric:PolicyException Count:1 policy:tag-compliance restype:aws.ec2
+2020-04-15 16:10:22,666 - custodian.output - DEBUG - metric:ApiCalls Count:0 policy:tag-compliance restype:aws.ec2
+2020-04-15 16:34:25,822 - custodian.policy - DEBUG - Running policy:tag-compliance resource:aws.ec2 region:us-west-1 c7n:0.9
+2020-04-15 16:34:25,922 - custodian.output - DEBUG - metric:PolicyException Count:1 policy:tag-compliance restype:aws.ec2
+2020-04-15 16:34:25,922 - custodian.output - DEBUG - metric:ApiCalls Count:0 policy:tag-compliance restype:aws.ec2
+2020-04-15 17:04:11,831 - custodian.policy - DEBUG - Running policy:tag-compliance resource:aws.ec2 region:us-west-1 c7n:0.9
+2020-04-15 17:04:12,786 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-04-15 17:04:12,787 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-04-15 17:04:12,788 - custodian.resources.ec2 - DEBUG - Filtered from 18 to 15 ec2
+2020-04-15 17:04:12,789 - custodian.policy - INFO - policy:tag-compliance resource:aws.ec2 region:us-west-1 count:15 time:0.96
+2020-04-15 17:04:12,800 - custodian.output - DEBUG - metric:ResourceCount Count:15 policy:tag-compliance restype:aws.ec2 scope:policy
+2020-04-15 17:04:12,800 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:tag-compliance restype:aws.ec2
+2020-04-16 17:08:34,570 - custodian.policy - DEBUG - Running policy:tag-compliance resource:aws.ec2 region:us-west-1 c7n:0.9
+2020-04-16 17:08:35,538 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-04-16 17:08:35,539 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-04-16 17:08:35,540 - custodian.resources.ec2 - DEBUG - Filtered from 18 to 15 ec2
+2020-04-16 17:08:35,541 - custodian.policy - INFO - policy:tag-compliance resource:aws.ec2 region:us-west-1 count:15 time:0.97
+2020-04-16 17:08:35,555 - custodian.output - DEBUG - metric:ResourceCount Count:15 policy:tag-compliance restype:aws.ec2 scope:policy
+2020-04-16 17:08:35,555 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:tag-compliance restype:aws.ec2

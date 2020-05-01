@@ -1,0 +1,94 @@
+{
+  "policy": {
+    "name": "scan-sg-wide-open",
+    "resource": "security-group",
+    "filters": [
+      {
+        "type": "ingress",
+        "IpProtocol": "tcp",
+        "Ports": [
+          22,
+          3389
+        ],
+        "Cidr": "0.0.0.0/0"
+      }
+    ]
+  },
+  "version": "0.9",
+  "execution": {
+    "id": "03c75466-3aeb-46e9-a657-6afc95f508d9",
+    "start": 1587664051.8191118,
+    "end_time": 1587664052.81844,
+    "duration": 0.9993281364440918
+  },
+  "config": {
+    "region": "us-west-1",
+    "regions": [
+      "us-west-1"
+    ],
+    "cache": "~/.cache/cloud-custodian.cache",
+    "profile": null,
+    "account_id": "302099125418",
+    "assume_role": null,
+    "external_id": null,
+    "log_group": null,
+    "tracer": null,
+    "metrics_enabled": null,
+    "metrics": null,
+    "output_dir": "/home/custodian/output",
+    "cache_period": 15,
+    "dryrun": false,
+    "authorization_file": null,
+    "subparser": "run",
+    "config": null,
+    "configs": [
+      "/home/custodian/sg-policy.yml"
+    ],
+    "policy_filters": [],
+    "resource_types": [],
+    "verbose": 1,
+    "quiet": null,
+    "debug": false,
+    "skip_validation": false,
+    "command": "c7n.commands.run",
+    "vars": null
+  },
+  "sys-stats": {
+    "snapshot_time": 0.9994325637817383,
+    "num_fds": 1,
+    "cpu_user": 0.14,
+    "cpu_system": 0.03,
+    "num_ctx_switches_voluntary": 73,
+    "num_ctx_switches_involuntary": 72,
+    "read_count": 184,
+    "write_count": 15,
+    "read_bytes": 12288,
+    "rss": 3379200,
+    "vms": 5636096,
+    "shared": 12288,
+    "data": 5636096
+  },
+  "api-stats": {
+    "ec2.DescribeSecurityGroups": 1
+  },
+  "metrics": [
+    {
+      "MetricName": "ResourceCount",
+      "Timestamp": "2020-04-23T17:47:32.813459",
+      "Value": 9,
+      "Unit": "Count"
+    },
+    {
+      "MetricName": "ResourceTime",
+      "Timestamp": "2020-04-23T17:47:32.813487",
+      "Value": 0.9698929786682129,
+      "Unit": "Seconds"
+    },
+    {
+      "MetricName": "ActionTime",
+      "Timestamp": "2020-04-23T17:47:32.818414",
+      "Value": 7.152557373046875e-06,
+      "Unit": "Seconds"
+    }
+  ]
+}

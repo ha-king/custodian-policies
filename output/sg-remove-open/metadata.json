@@ -1,0 +1,131 @@
+{
+  "policy": {
+    "name": "sg-remove-open",
+    "resource": "security-group",
+    "description": "Remove any rule from a security group that allows 0.0.0.0/0 or ::/0 (IPv6) ingress.\n",
+    "mode": {
+      "type": "cloudtrail",
+      "role": "arn:aws:iam::302099125418:role/custodian-ec2-role",
+      "events": [
+        {
+          "source": "ec2.amazonaws.com",
+          "event": "AuthorizeSecurityGroupIngress",
+          "ids": "requestParameters.groupId"
+        },
+        {
+          "source": "ec2.amazonaws.com",
+          "event": "AuthorizeSecurityGroupEgress",
+          "ids": "requestParameters.groupId"
+        },
+        {
+          "source": "ec2.amazonaws.com",
+          "event": "RevokeSecurityGroupEgress",
+          "ids": "requestParameters.groupId"
+        },
+        {
+          "source": "ec2.amazonaws.com",
+          "event": "RevokeSecurityGroupIngress",
+          "ids": "requestParameters.groupId"
+        }
+      ],
+      "tags": {
+        "custodian-info": "mode=cloudtrail:version=0.9"
+      }
+    },
+    "filters": [
+      {
+        "or": [
+          {
+            "type": "ingress",
+            "IpProtocol": "tcp",
+            "Ports": [
+              4441
+            ],
+            "Cidr": {
+              "value": "0.0.0.0/0"
+            }
+          },
+          {
+            "type": "ingress",
+            "IpProtocol": "tcp",
+            "Ports": [
+              4441
+            ],
+            "CidrV6": {
+              "value": "::/0"
+            }
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "remove-permissions",
+        "ingress": "matched"
+      }
+    ]
+  },
+  "version": "0.9",
+  "execution": {
+    "id": "86a56630-9c64-4749-bea8-d45d00e88eae",
+    "start": 1588005365.3311327,
+    "end_time": 1588005367.4308662,
+    "duration": 2.099733591079712
+  },
+  "config": {
+    "region": "us-west-1",
+    "regions": [
+      "us-west-1"
+    ],
+    "cache": "~/.cache/cloud-custodian.cache",
+    "profile": null,
+    "account_id": "302099125418",
+    "assume_role": null,
+    "external_id": null,
+    "log_group": null,
+    "tracer": null,
+    "metrics_enabled": null,
+    "metrics": null,
+    "output_dir": "/home/custodian/output",
+    "cache_period": 15,
+    "dryrun": false,
+    "authorization_file": null,
+    "subparser": "run",
+    "config": null,
+    "configs": [
+      "/home/custodian/sg-remove-open.yml"
+    ],
+    "policy_filters": [],
+    "resource_types": [],
+    "verbose": 1,
+    "quiet": null,
+    "debug": false,
+    "skip_validation": false,
+    "command": "c7n.commands.run",
+    "vars": null
+  },
+  "sys-stats": {
+    "snapshot_time": 2.100029230117798,
+    "num_fds": 2,
+    "cpu_user": 0.16000000000000003,
+    "cpu_system": 0.04000000000000001,
+    "num_ctx_switches_voluntary": 106,
+    "num_ctx_switches_involuntary": 2,
+    "read_count": 601,
+    "write_count": 362,
+    "write_bytes": 466944,
+    "read_bytes": 32768,
+    "rss": 6725632,
+    "vms": 6410240,
+    "shared": 12288,
+    "data": 6410240
+  },
+  "api-stats": {
+    "lambda.GetFunction": 1,
+    "lambda.UpdateFunctionCode": 1,
+    "events.DescribeRule": 1,
+    "lambda.AddPermission": 1,
+    "events.ListTargetsByRule": 1
+  },
+  "metrics": []
+}

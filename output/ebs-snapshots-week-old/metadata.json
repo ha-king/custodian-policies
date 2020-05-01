@@ -1,0 +1,94 @@
+{
+  "policy": {
+    "name": "ebs-snapshots-week-old",
+    "resource": "aws.ebs-snapshot",
+    "filters": [
+      {
+        "type": "age",
+        "days": 90,
+        "op": "ge"
+      },
+      "skip-ami-snapshots"
+    ]
+  },
+  "version": "0.9",
+  "execution": {
+    "id": "803e91cd-ebe8-4af1-8f56-a685f367df7b",
+    "start": 1586980986.3501835,
+    "end_time": 1586980988.6411276,
+    "duration": 2.2909440994262695
+  },
+  "config": {
+    "region": "us-west-1",
+    "regions": [
+      "us-west-1"
+    ],
+    "cache": "~/.cache/cloud-custodian.cache",
+    "profile": null,
+    "account_id": "302099125418",
+    "assume_role": null,
+    "external_id": null,
+    "log_group": null,
+    "tracer": null,
+    "metrics_enabled": null,
+    "metrics": null,
+    "output_dir": "/home/custodian/output",
+    "cache_period": 15,
+    "dryrun": false,
+    "authorization_file": null,
+    "subparser": "run",
+    "config": null,
+    "configs": [
+      "/home/custodian/ebs-snap-policy.yml"
+    ],
+    "policy_filters": [],
+    "resource_types": [],
+    "verbose": 1,
+    "quiet": null,
+    "debug": false,
+    "skip_validation": false,
+    "command": "c7n.commands.run",
+    "vars": null
+  },
+  "sys-stats": {
+    "snapshot_time": 2.2909703254699707,
+    "cache_size": 37013,
+    "num_fds": 1,
+    "cpu_user": 0.41000000000000003,
+    "cpu_system": 0.05000000000000002,
+    "num_ctx_switches_voluntary": 154,
+    "num_ctx_switches_involuntary": 5,
+    "read_count": 670,
+    "write_count": 21,
+    "write_bytes": 40960,
+    "read_bytes": 12288,
+    "rss": 11718656,
+    "vms": 12451840,
+    "shared": 114688,
+    "data": 12451840
+  },
+  "api-stats": {
+    "ec2.DescribeSnapshots": 1,
+    "ec2.DescribeImages": 1
+  },
+  "metrics": [
+    {
+      "MetricName": "ResourceCount",
+      "Timestamp": "2020-04-15T20:03:08.615213",
+      "Value": 1067,
+      "Unit": "Count"
+    },
+    {
+      "MetricName": "ResourceTime",
+      "Timestamp": "2020-04-15T20:03:08.615233",
+      "Value": 2.2449419498443604,
+      "Unit": "Seconds"
+    },
+    {
+      "MetricName": "ActionTime",
+      "Timestamp": "2020-04-15T20:03:08.641103",
+      "Value": 6.67572021484375e-06,
+      "Unit": "Seconds"
+    }
+  ]
+}

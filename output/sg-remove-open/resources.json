@@ -1,0 +1,56 @@
+[
+  {
+    "Description": "temporary sg for testing reporting",
+    "GroupName": "ScanTest",
+    "IpPermissions": [
+      {
+        "FromPort": 4441,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [
+          {
+            "CidrIpv6": "::/0"
+          }
+        ],
+        "PrefixListIds": [],
+        "ToPort": 4441,
+        "UserIdGroupPairs": []
+      }
+    ],
+    "OwnerId": "302099125418",
+    "GroupId": "sg-0e66a47672711de16",
+    "IpPermissionsEgress": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ],
+    "VpcId": "vpc-c90d67ad",
+    "MatchedIpPermissions": [
+      {
+        "FromPort": 4441,
+        "IpProtocol": "tcp",
+        "ToPort": 4441,
+        "IpRanges": [],
+        "Ipv6Ranges": [
+          {
+            "CidrIpv6": "::/0"
+          }
+        ],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ]
+  }
+]

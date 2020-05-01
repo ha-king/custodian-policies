@@ -1,0 +1,8 @@
+policies:
+  - name: scan-sg-wide-open
+    resource: security-group
+    filters:
+      - type: ingress
+        IpProtocol: tcp
+        Ports: [22, 3389]
+        Cidr: "0.0.0.0/0"

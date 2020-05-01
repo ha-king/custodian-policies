@@ -1,0 +1,30 @@
+2020-04-27 16:14:58,449 - custodian.policy - DEBUG - Running policy:sg-remove-open resource:security-group region:us-west-1 c7n:0.9
+2020-04-27 16:14:59,618 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-04-27 16:14:59,619 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-04-27 16:14:59,626 - custodian.resources.securitygroup - DEBUG - Filtered from 55 to 0 securitygroup
+2020-04-27 16:14:59,627 - custodian.policy - INFO - policy:sg-remove-open resource:security-group region:us-west-1 count:0 time:1.18
+2020-04-27 16:14:59,636 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:sg-remove-open restype:security-group scope:policy
+2020-04-27 16:14:59,636 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:sg-remove-open restype:security-group
+2020-04-27 16:17:52,472 - custodian.policy - DEBUG - Running policy:sg-remove-open resource:security-group region:us-west-1 c7n:0.9
+2020-04-27 16:17:53,423 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-04-27 16:17:53,424 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-04-27 16:17:53,431 - custodian.resources.securitygroup - DEBUG - Filtered from 55 to 1 securitygroup
+2020-04-27 16:17:53,432 - custodian.policy - INFO - policy:sg-remove-open resource:security-group region:us-west-1 count:1 time:0.96
+2020-04-27 16:17:53,436 - custodian.policy - DEBUG - dryrun: skipping actions
+2020-04-27 16:17:53,440 - custodian.output - DEBUG - metric:ResourceCount Count:1 policy:sg-remove-open restype:security-group scope:policy
+2020-04-27 16:17:53,441 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:sg-remove-open restype:security-group
+2020-04-27 16:18:02,407 - custodian.policy - INFO - Provisioning policy lambda: sg-remove-open region: us-west-1
+2020-04-27 16:18:02,568 - custodian.output - DEBUG - metric:PolicyException Count:1 policy:sg-remove-open restype:security-group
+2020-04-27 16:18:02,568 - custodian.output - DEBUG - metric:ApiCalls Count:0 policy:sg-remove-open restype:security-group
+2020-04-27 16:28:50,999 - custodian.policy - INFO - Provisioning policy lambda: sg-remove-open region: us-west-1
+2020-04-27 16:28:51,091 - custodian.serverless - DEBUG - Created custodian serverless archive size: 0.44mb
+2020-04-27 16:28:51,479 - custodian.serverless - INFO - Publishing custodian policy lambda function custodian-sg-remove-open
+2020-04-27 16:28:52,857 - custodian.serverless - DEBUG - Creating cwe rule for <CWEvent Type:cloudtrail Events:{'source': 'ec2.amazonaws.com', 'event': 'AuthorizeSecurityGroupIngress', 'ids': 'requestParameters.groupId'}, {'source': 'ec2.amazonaws.com', 'event': 'AuthorizeSecurityGroupEgress', 'ids': 'requestParameters.groupId'}, {'source': 'ec2.amazonaws.com', 'event': 'RevokeSecurityGroupEgress', 'ids': 'requestParameters.groupId'}, {'source': 'ec2.amazonaws.com', 'event': 'RevokeSecurityGroupIngress', 'ids': 'requestParameters.groupId'}>
+2020-04-27 16:28:53,463 - custodian.serverless - DEBUG - Added lambda invoke cwe rule permission
+2020-04-27 16:28:53,535 - custodian.serverless - DEBUG - Creating cwe rule target for <CWEvent Type:cloudtrail Events:{'source': 'ec2.amazonaws.com', 'event': 'AuthorizeSecurityGroupIngress', 'ids': 'requestParameters.groupId'}, {'source': 'ec2.amazonaws.com', 'event': 'AuthorizeSecurityGroupEgress', 'ids': 'requestParameters.groupId'}, {'source': 'ec2.amazonaws.com', 'event': 'RevokeSecurityGroupEgress', 'ids': 'requestParameters.groupId'}, {'source': 'ec2.amazonaws.com', 'event': 'RevokeSecurityGroupIngress', 'ids': 'requestParameters.groupId'}> on func:arn:aws:lambda:us-west-1:302099125418:function:custodian-sg-remove-open
+2020-04-27 16:28:53,617 - custodian.serverless - DEBUG - Added event source: <CWEvent Type:cloudtrail Events:{'source': 'ec2.amazonaws.com', 'event': 'AuthorizeSecurityGroupIngress', 'ids': 'requestParameters.groupId'}, {'source': 'ec2.amazonaws.com', 'event': 'AuthorizeSecurityGroupEgress', 'ids': 'requestParameters.groupId'}, {'source': 'ec2.amazonaws.com', 'event': 'RevokeSecurityGroupEgress', 'ids': 'requestParameters.groupId'}, {'source': 'ec2.amazonaws.com', 'event': 'RevokeSecurityGroupIngress', 'ids': 'requestParameters.groupId'}> to function: arn:aws:lambda:us-west-1:302099125418:function:custodian-sg-remove-open
+2020-04-27 16:28:53,628 - custodian.output - DEBUG - metric:ApiCalls Count:7 policy:sg-remove-open restype:security-group
+2020-04-27 16:36:05,353 - custodian.policy - INFO - Provisioning policy lambda: sg-remove-open region: us-west-1
+2020-04-27 16:36:05,442 - custodian.serverless - DEBUG - Created custodian serverless archive size: 0.44mb
+2020-04-27 16:36:05,803 - custodian.serverless - DEBUG - Updating function custodian-sg-remove-open code
+2020-04-27 16:36:07,437 - custodian.output - DEBUG - metric:ApiCalls Count:5 policy:sg-remove-open restype:security-group

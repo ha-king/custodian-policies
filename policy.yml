@@ -1,0 +1,12 @@
+policies:
+ - name: tag-compliance
+   resource: aws.ec2
+   description: |
+     Schedule a resource that does not meet tag compliance policies
+   filters:
+    - State.Name: running
+    - "tag:Environment": absent
+    - "tag:AppId": absent
+    - or:
+      - "tag:OwnerContact": absent
+      - "tag:DeptID": absent
