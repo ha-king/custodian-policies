@@ -1,0 +1,51 @@
+Region,GroupId,GroupName
+us-east-1,sg-00929d76,g2g-cca
+us-east-1,sg-0411674353aacc4dc,jira-dc-apache-sg
+us-east-1,sg-0566228a5ceddc456,jira-dc-sg
+us-east-1,sg-06d74877,launch-wizard-7
+us-east-1,sg-08220d434a85286fb,anthem-sg
+us-east-1,sg-0f350804d05d12e9d,d-9067161d61_controllers
+us-east-1,sg-1205b960,CentOS 7 -x86_64- - with Updates HVM-1708-AutogenByAWSMP-
+us-east-1,sg-3e130975,launch-wizard-8
+us-east-1,sg-3eb06e42,launch-wizard-5
+us-east-1,sg-4b488037,launch-wizard-4
+us-east-1,sg-a0a93ad2,CentOS 7 -x86_64- - with Updates HVM-1708-AutogenByAWSMP-1
+us-east-1,sg-b1f1f2ce,stack-itg-prod-jiradc-SecurityGroup-14K2H2N04T2KF
+us-east-1,sg-b6b67cfd,g2g-synapse-demo
+us-east-1,sg-cd17bab3,docker-machine
+us-east-1,sg-e1036c9e,launch-wizard-6
+us-east-1,sg-ec6dbd9a,launch-wizard-3
+us-east-1,sg-f17ec18c,launch-wizard-1
+us-east-2,sg-059b492d64bfa3f3e,g2g-performance-test
+us-east-2,sg-082c6462,nodes.g2g.jenkins.k8s.local
+us-east-2,sg-0ac869ae8dd881eeb,g2g-anthem-ansible-tower
+us-east-2,sg-0fbf41776d186bdef,teams-in-space
+us-east-2,sg-6129610b,api-elb.g2g.jenkins.k8s.local
+us-east-2,sg-b1ee95da,launch-wizard-1
+us-east-2,sg-c43e4caf,http-https-ssl
+us-east-2,sg-db2c64b1,masters.g2g.jenkins.k8s.local
+us-east-2,sg-dc2d65b6,k8s-elb-a37d3de5184be11e898c40a519bee975
+us-east-2,sg-ff492d94,juju-842457e6-a7d3-4f69-8987-47c3f9969391
+us-west-1,sg-0486327d,launch-wizard-1
+us-west-1,sg-097e6023f6e7de8b7,jenkins-sg
+us-west-1,sg-0bc7c1d5911ba934a,g2g-elk-sg
+us-west-1,sg-0e66a47672711de16,ScanTest
+us-west-1,sg-2986054f,Bitbucket-port-range
+us-west-1,sg-54733f33,G2G-ConnectALL
+us-west-1,sg-58a1ec3f,G2GAssociates
+us-west-1,sg-5a350123,demojira
+us-west-1,sg-5f41b039,G2G-CA-OPS-RDP
+us-west-1,sg-6785a800,Microsoft Windows Server 2012 RTM-2017-04-12-AutogenByAWSMP-
+us-west-1,sg-6c7d840a,WEB
+us-west-1,sg-72624815,Microsoft Windows Server 2012 RTM-2017-04-12-AutogenByAWSMP-1
+us-west-1,sg-7708c711,TrustPublicSubnet
+us-west-1,sg-9224c7eb,OpenVPN Access Server (25 Connected Devices)-2.1.9-AutogenByAWSMP-
+us-west-1,sg-9b092afc,G2G-AWS-HPPPM
+us-west-1,sg-9f8637e6,launch-wizard-2
+us-west-1,sg-a3c3bddb,Ubuntu 18-04 LTS - Bionic-18-04 LTS 20180522-AutogenByAWSMP-
+us-west-1,sg-a9e1f0d0,CentOS 7 -x86_64- - with Updates HVM-1803_01-AutogenByAWSMP-
+us-west-1,sg-e57a8383,SSH
+us-west-1,sg-eba84b8d,G2G-DoorsNG6
+us-west-2,sg-75b3f70c,default
+us-west-2,sg-7ab8e90a,k8s-elb-a2c1eda25910111e882d1028d2084a7a
+

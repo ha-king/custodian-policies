@@ -1,0 +1,11 @@
+policies:
+  - name: scan-sg-not-open
+    resource: security-group
+    filters:
+      - type: ingress
+        IpProtocol: tcp
+        Cidr:
+          value:
+            - "13.52.173.92/32"
+          op: in
+        

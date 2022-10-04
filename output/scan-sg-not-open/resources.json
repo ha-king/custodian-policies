@@ -1,0 +1,1794 @@
+[
+  {
+    "Description": "Security group for ops project jira",
+    "GroupName": "ops-jira-sg",
+    "IpPermissions": [
+      {
+        "FromPort": 0,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "Open VPN IP"
+          },
+          {
+            "CidrIp": "74.103.66.2/32",
+            "Description": "Bel Air VPN IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 65535,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 8080,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "54.219.187.58/32",
+            "Description": "For Gadget URL"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 8080,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "Open VPN IP"
+          },
+          {
+            "CidrIp": "171.78.134.151/32",
+            "Description": "Karthik VPN"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 22,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 7990,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "For import . Pls delete "
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 7990,
+        "UserIdGroupPairs": []
+      }
+    ],
+    "OwnerId": "302099125418",
+    "GroupId": "sg-03e69d8b86a28f74e",
+    "IpPermissionsEgress": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ],
+    "VpcId": "vpc-b149cad5",
+    "MatchedIpPermissions": [
+      {
+        "FromPort": 0,
+        "IpProtocol": "tcp",
+        "ToPort": 65535,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "Open VPN IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "ToPort": 22,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "Open VPN IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 7990,
+        "IpProtocol": "tcp",
+        "ToPort": 7990,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "For import . Pls delete "
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ]
+  },
+  {
+    "Description": "Created from the RDS Management Console: 2019/11/06 08:59:52",
+    "GroupName": "rds-launch-wizard-4",
+    "IpPermissions": [
+      {
+        "FromPort": 5432,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "10.0.0.185/32",
+            "Description": "Jira staging ip"
+          },
+          {
+            "CidrIp": "13.52.173.92/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 5432,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 3306,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "10.0.0.107/32",
+            "Description": "crowd prod ec2"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 3306,
+        "UserIdGroupPairs": []
+      }
+    ],
+    "OwnerId": "302099125418",
+    "GroupId": "sg-04da3f4ec37610ad3",
+    "IpPermissionsEgress": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ],
+    "Tags": [
+      {
+        "Key": "Name",
+        "Value": "rds-sg"
+      }
+    ],
+    "VpcId": "vpc-b149cad5",
+    "MatchedIpPermissions": [
+      {
+        "FromPort": 5432,
+        "IpProtocol": "tcp",
+        "ToPort": 5432,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ]
+  },
+  {
+    "Description": "launch-wizard-6 created 2019-04-03T11:52:56.621+05:30",
+    "GroupName": "launch-wizard-6",
+    "IpPermissions": [
+      {
+        "FromPort": 8080,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "74.103.66.2/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 8080,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32"
+          },
+          {
+            "CidrIp": "182.75.141.6/32"
+          },
+          {
+            "CidrIp": "74.103.66.2/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 22,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 8090,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "74.103.66.2/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 8090,
+        "UserIdGroupPairs": []
+      }
+    ],
+    "OwnerId": "302099125418",
+    "GroupId": "sg-06e01da7892503d00",
+    "IpPermissionsEgress": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ],
+    "VpcId": "vpc-b149cad5",
+    "MatchedIpPermissions": [
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "ToPort": 22,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ]
+  },
+  {
+    "Description": "security group for grafa",
+    "GroupName": "grafana-sg",
+    "IpPermissions": [
+      {
+        "FromPort": 80,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 80,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "OpenVPN IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 22,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 443,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 443,
+        "UserIdGroupPairs": []
+      }
+    ],
+    "OwnerId": "302099125418",
+    "GroupId": "sg-087274ced2710187f",
+    "IpPermissionsEgress": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ],
+    "VpcId": "vpc-b149cad5",
+    "MatchedIpPermissions": [
+      {
+        "FromPort": 80,
+        "IpProtocol": "tcp",
+        "ToPort": 80,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "ToPort": 22,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "OpenVPN IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 443,
+        "IpProtocol": "tcp",
+        "ToPort": 443,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ]
+  },
+  {
+    "Description": "security group for jenkins instance",
+    "GroupName": "jenkins-sg",
+    "IpPermissions": [
+      {
+        "FromPort": 80,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [
+          {
+            "CidrIpv6": "::/0"
+          }
+        ],
+        "PrefixListIds": [],
+        "ToPort": 80,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 0,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "open vpn ip"
+          },
+          {
+            "CidrIp": "74.103.66.2/32",
+            "Description": "vpn ip"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 65535,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 443,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [
+          {
+            "CidrIpv6": "::/0"
+          }
+        ],
+        "PrefixListIds": [],
+        "ToPort": 443,
+        "UserIdGroupPairs": []
+      }
+    ],
+    "OwnerId": "302099125418",
+    "GroupId": "sg-097e6023f6e7de8b7",
+    "IpPermissionsEgress": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ],
+    "VpcId": "vpc-b149cad5",
+    "MatchedIpPermissions": [
+      {
+        "FromPort": 0,
+        "IpProtocol": "tcp",
+        "ToPort": 65535,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "open vpn ip"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ]
+  },
+  {
+    "Description": "Stash Restriction",
+    "GroupName": "Stash Restriction",
+    "IpPermissions": [
+      {
+        "FromPort": 80,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "G2G VPN IP"
+          },
+          {
+            "CidrIp": "74.103.66.2/32",
+            "Description": "CA VPN IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 80,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 443,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "G2G VPN IP"
+          },
+          {
+            "CidrIp": "74.103.66.2/32",
+            "Description": "CA VPN IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 443,
+        "UserIdGroupPairs": []
+      }
+    ],
+    "OwnerId": "302099125418",
+    "GroupId": "sg-0adbcdd8686b9f101",
+    "IpPermissionsEgress": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ],
+    "VpcId": "vpc-c90d67ad",
+    "MatchedIpPermissions": [
+      {
+        "FromPort": 80,
+        "IpProtocol": "tcp",
+        "ToPort": 80,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "G2G VPN IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 443,
+        "IpProtocol": "tcp",
+        "ToPort": 443,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "G2G VPN IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ]
+  },
+  {
+    "Description": "security for elk instance",
+    "GroupName": "g2g-elk-sg",
+    "IpPermissions": [
+      {
+        "FromPort": 0,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 65535,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "G2G Open VPN IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 22,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 5044,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0",
+            "Description": "from filebeat"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 5044,
+        "UserIdGroupPairs": []
+      }
+    ],
+    "OwnerId": "302099125418",
+    "GroupId": "sg-0bc7c1d5911ba934a",
+    "IpPermissionsEgress": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ],
+    "VpcId": "vpc-b149cad5",
+    "MatchedIpPermissions": [
+      {
+        "FromPort": 0,
+        "IpProtocol": "tcp",
+        "ToPort": 65535,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "ToPort": 22,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "G2G Open VPN IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ]
+  },
+  {
+    "Description": "ops-openvpn-admin",
+    "GroupName": "ops-openvpn-admin",
+    "IpPermissions": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "173.10.59.105/32",
+            "Description": "jay home office"
+          },
+          {
+            "CidrIp": "198.105.226.126/32",
+            "Description": "dawn home office"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "60.243.111.222/32",
+            "Description": "Haneef IP"
+          },
+          {
+            "CidrIp": "67.149.114.237/32",
+            "Description": "David Home IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 22,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 10050,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "54.241.187.171/32",
+            "Description": "zabbix server IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 10050,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 9943,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "OpenVPN instance"
+          },
+          {
+            "CidrIp": "198.105.226.126/32",
+            "Description": "Dawn home ip"
+          },
+          {
+            "CidrIp": "27.5.61.238/32",
+            "Description": "Haneef home ip"
+          },
+          {
+            "CidrIp": "60.243.21.9/32",
+            "Description": "G2G chennai office"
+          },
+          {
+            "CidrIp": "67.149.114.237/32",
+            "Description": "David Home IP"
+          },
+          {
+            "CidrIp": "68.41.80.160/32",
+            "Description": "jay home office"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 9943,
+        "UserIdGroupPairs": []
+      }
+    ],
+    "OwnerId": "302099125418",
+    "GroupId": "sg-0eaa2aedd37670ad3",
+    "IpPermissionsEgress": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ],
+    "Tags": [
+      {
+        "Key": "Name",
+        "Value": "ops-openvpn-admin"
+      }
+    ],
+    "VpcId": "vpc-33618854",
+    "MatchedIpPermissions": [
+      {
+        "FromPort": 9943,
+        "IpProtocol": "tcp",
+        "ToPort": 9943,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "OpenVPN instance"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ]
+  },
+  {
+    "Description": "Trust connection from Go2Group VPN",
+    "GroupName": "TrustG2GVPN",
+    "IpPermissions": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "172.17.0.0/16"
+          },
+          {
+            "CidrIp": "74.103.66.2/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32"
+          },
+          {
+            "CidrIp": "74.103.66.2/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 22,
+        "UserIdGroupPairs": []
+      }
+    ],
+    "OwnerId": "302099125418",
+    "GroupId": "sg-1f9a4379",
+    "IpPermissionsEgress": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ],
+    "Tags": [
+      {
+        "Key": "Name",
+        "Value": "TrustG2GVPN"
+      }
+    ],
+    "VpcId": "vpc-906f01f4",
+    "MatchedIpPermissions": [
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "ToPort": 22,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ]
+  },
+  {
+    "Description": "This security group was generated by AWS Marketplace and is based on recommended settings for CentOS 7 (x86_64) - with Updates HVM version 1602 provided by Centos.org",
+    "GroupName": "CentOS 7 -x86_64- - with Updates HVM-1602-AutogenByAWSMP-",
+    "IpPermissions": [
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "Open vpn ip"
+          },
+          {
+            "CidrIp": "74.103.66.2/32",
+            "Description": "VPN IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 22,
+        "UserIdGroupPairs": []
+      }
+    ],
+    "OwnerId": "302099125418",
+    "GroupId": "sg-300f5f57",
+    "IpPermissionsEgress": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ],
+    "VpcId": "vpc-0ed0316a",
+    "MatchedIpPermissions": [
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "ToPort": 22,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "Open vpn ip"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ]
+  },
+  {
+    "Description": "ConnectALL SaaS Solution Security Group",
+    "GroupName": "G2G-ConnectALL",
+    "IpPermissions": [
+      {
+        "FromPort": 80,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [
+          {
+            "CidrIpv6": "::/0"
+          }
+        ],
+        "PrefixListIds": [],
+        "ToPort": 80,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 9000,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "74.103.66.2/32",
+            "Description": "Visual VM analysis"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 9000,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 0,
+        "IpProtocol": "icmp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.56.120.248/32"
+          },
+          {
+            "CidrIp": "73.165.120.212/32"
+          },
+          {
+            "CidrIp": "74.103.66.26/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": -1,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "122.167.71.6/32",
+            "Description": "Murali IP"
+          },
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "G2G Open VPN IP"
+          },
+          {
+            "CidrIp": "24.25.200.78/32",
+            "Description": "Doug Public IP"
+          },
+          {
+            "CidrIp": "49.204.223.146/32",
+            "Description": "vijay public ip temp"
+          },
+          {
+            "CidrIp": "74.103.66.2/32",
+            "Description": "Connectall Open VPN IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 22,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 10051,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "54.241.187.171/32",
+            "Description": "For zabbix"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 10051,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 3306,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "172.31.6.13/32",
+            "Description": "DB port for SaaS instance"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 3306,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 10050,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "54.241.187.171/32",
+            "Description": "For zabbix"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 10050,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 443,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [
+          {
+            "CidrIpv6": "::/0"
+          }
+        ],
+        "PrefixListIds": [],
+        "ToPort": 443,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 9100,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.56.120.248/32",
+            "Description": "Prometheus server IP"
+          },
+          {
+            "CidrIp": "74.103.66.2/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 9100,
+        "UserIdGroupPairs": []
+      }
+    ],
+    "OwnerId": "302099125418",
+    "GroupId": "sg-54733f33",
+    "IpPermissionsEgress": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ],
+    "VpcId": "vpc-0ed0316a",
+    "MatchedIpPermissions": [
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "ToPort": 22,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "G2G Open VPN IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ]
+  },
+  {
+    "Description": "secuity group for demo jira",
+    "GroupName": "demojira",
+    "IpPermissions": [
+      {
+        "FromPort": 80,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [
+          {
+            "CidrIpv6": "::/0"
+          }
+        ],
+        "PrefixListIds": [],
+        "ToPort": 80,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 0,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 65535,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 8080,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [
+          {
+            "CidrIpv6": "::/0"
+          }
+        ],
+        "PrefixListIds": [],
+        "ToPort": 8080,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "VPN IP"
+          },
+          {
+            "CidrIp": "74.103.66.2/32",
+            "Description": "VPN IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 22,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 443,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [
+          {
+            "CidrIpv6": "::/0"
+          }
+        ],
+        "PrefixListIds": [],
+        "ToPort": 443,
+        "UserIdGroupPairs": []
+      }
+    ],
+    "OwnerId": "302099125418",
+    "GroupId": "sg-5a350123",
+    "IpPermissionsEgress": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ],
+    "VpcId": "vpc-b149cad5",
+    "MatchedIpPermissions": [
+      {
+        "FromPort": 0,
+        "IpProtocol": "tcp",
+        "ToPort": 65535,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "ToPort": 22,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "VPN IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ]
+  },
+  {
+    "Description": "ConnectALL Operations Team Support RDP and Application Connectivity Security Group",
+    "GroupName": "G2G-CA-OPS-RDP",
+    "IpPermissions": [
+      {
+        "FromPort": 1433,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.56.50.19/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 1433,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 80,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [
+          {
+            "CidrIpv6": "::/0"
+          }
+        ],
+        "PrefixListIds": [],
+        "ToPort": 80,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "74.103.66.2/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 22,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 3389,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32"
+          },
+          {
+            "CidrIp": "60.243.103.51/32"
+          },
+          {
+            "CidrIp": "74.103.66.2/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 3389,
+        "UserIdGroupPairs": []
+      }
+    ],
+    "OwnerId": "302099125418",
+    "GroupId": "sg-5f41b039",
+    "IpPermissionsEgress": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ],
+    "VpcId": "vpc-906f01f4",
+    "MatchedIpPermissions": [
+      {
+        "FromPort": 3389,
+        "IpProtocol": "tcp",
+        "ToPort": 3389,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ]
+  },
+  {
+    "Description": "G2G Associates assigned to go Through BAR VPN Appliance",
+    "GroupName": "TrustG2GVPN",
+    "IpPermissions": [
+      {
+        "FromPort": 0,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "OpenVPN"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 65535,
+        "UserIdGroupPairs": []
+      }
+    ],
+    "OwnerId": "302099125418",
+    "GroupId": "sg-7123fd17",
+    "IpPermissionsEgress": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "74.103.66.2/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ],
+    "Tags": [
+      {
+        "Key": "Name",
+        "Value": "TrustG2GVPN"
+      }
+    ],
+    "VpcId": "vpc-0ed0316a",
+    "MatchedIpPermissions": [
+      {
+        "FromPort": 0,
+        "IpProtocol": "tcp",
+        "ToPort": 65535,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "OpenVPN"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ]
+  },
+  {
+    "Description": "Trust access from Public Subnet",
+    "GroupName": "TrustPublicSubnet",
+    "IpPermissions": [
+      {
+        "FromPort": 0,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "open vpn ip"
+          },
+          {
+            "CidrIp": "172.16.1.0/24"
+          },
+          {
+            "CidrIp": "172.16.2.0/24"
+          },
+          {
+            "CidrIp": "74.103.66.2/32",
+            "Description": "vpn ip temp"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 65535,
+        "UserIdGroupPairs": []
+      },
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "50.4.240.126/32",
+            "Description": "jay home ip temp"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "VPN IP"
+          },
+          {
+            "CidrIp": "172.16.3.0/24"
+          },
+          {
+            "CidrIp": "74.103.66.2/32",
+            "Description": "VPN IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 22,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 10051,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0",
+            "Description": "For Saas Zabbix"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 10051,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 7999,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0",
+            "Description": "ssh stash"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 7999,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 10050,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0",
+            "Description": "zabbix agent"
+          },
+          {
+            "CidrIp": "172.16.1.110/32",
+            "Description": "zabbix agent"
+          },
+          {
+            "CidrIp": "172.16.3.0/24",
+            "Description": "For Zabbix agent "
+          },
+          {
+            "CidrIp": "172.16.4.0/24",
+            "Description": "For zabbix Agent "
+          },
+          {
+            "CidrIp": "54.183.215.86/32",
+            "Description": "For Zabbix"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 10050,
+        "UserIdGroupPairs": []
+      }
+    ],
+    "OwnerId": "302099125418",
+    "GroupId": "sg-7708c711",
+    "IpPermissionsEgress": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ],
+    "Tags": [
+      {
+        "Key": "Name",
+        "Value": "TrustPublicSubnet"
+      }
+    ],
+    "VpcId": "vpc-c90d67ad",
+    "MatchedIpPermissions": [
+      {
+        "FromPort": 0,
+        "IpProtocol": "tcp",
+        "ToPort": 65535,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "open vpn ip"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "ToPort": 22,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "VPN IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ]
+  },
+  {
+    "Description": "Trust G2G VPN address fro hosting VPC",
+    "GroupName": "TrustG2GVPN",
+    "IpPermissions": [
+      {
+        "FromPort": 0,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "Open VPN IP"
+          },
+          {
+            "CidrIp": "172.17.0.0/16",
+            "Description": "Transit VPN CIDR"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 65535,
+        "UserIdGroupPairs": []
+      },
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "172.16.1.221/32",
+            "Description": "relay server"
+          },
+          {
+            "CidrIp": "173.10.59.105/32",
+            "Description": "jay-home"
+          },
+          {
+            "CidrIp": "198.105.226.125/32",
+            "Description": "dawn-home temp/delete"
+          },
+          {
+            "CidrIp": "67.149.114.237/32",
+            "Description": "Davids Home"
+          },
+          {
+            "CidrIp": "74.103.66.2/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "27.62.130.174/32"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 22,
+        "UserIdGroupPairs": []
+      }
+    ],
+    "OwnerId": "302099125418",
+    "GroupId": "sg-7e850618",
+    "IpPermissionsEgress": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ],
+    "VpcId": "vpc-c90d67ad",
+    "MatchedIpPermissions": [
+      {
+        "FromPort": 0,
+        "IpProtocol": "tcp",
+        "ToPort": 65535,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "Open VPN IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ]
+  },
+  {
+    "Description": "launch-wizard-4 created 2018-03-29T16:59:36.107-07:00",
+    "GroupName": "launch-wizard-4",
+    "IpPermissions": [
+      {
+        "FromPort": 0,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "107.77.202.125/32",
+            "Description": "darby IP "
+          },
+          {
+            "CidrIp": "119.245.90.251/32",
+            "Description": "Nori IP"
+          },
+          {
+            "CidrIp": "126.202.7.65/32",
+            "Description": "Nori Tokyo ip"
+          },
+          {
+            "CidrIp": "126.226.42.95/32",
+            "Description": "Nori"
+          },
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "OPen VPN IP"
+          },
+          {
+            "CidrIp": "210.128.101.33/32",
+            "Description": "Nori japan IP"
+          },
+          {
+            "CidrIp": "69.255.66.205/32",
+            "Description": "Jennifer Fairhead IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 65535,
+        "UserIdGroupPairs": []
+      },
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "126.228.57.208/32",
+            "Description": "Nori apartment IP"
+          },
+          {
+            "CidrIp": "68.41.80.160/32",
+            "Description": "jay home office"
+          },
+          {
+            "CidrIp": "70.106.202.63/32",
+            "Description": "Enver Camlicay"
+          },
+          {
+            "CidrIp": "71.121.218.104/32",
+            "Description": "Alan Friedland, requested by Nori"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 3389,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "67.149.114.237/32",
+            "Description": "David Diperna"
+          },
+          {
+            "CidrIp": "71.237.33.168/32",
+            "Description": "Peter (consultant, installing dbsync)"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 3389,
+        "UserIdGroupPairs": []
+      }
+    ],
+    "OwnerId": "302099125418",
+    "GroupId": "sg-c9e9c8b0",
+    "IpPermissionsEgress": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ],
+    "Tags": [
+      {
+        "Key": "Name",
+        "Value": "Trust_VPN_IP"
+      }
+    ],
+    "VpcId": "vpc-33618854",
+    "MatchedIpPermissions": [
+      {
+        "FromPort": 0,
+        "IpProtocol": "tcp",
+        "ToPort": 65535,
+        "IpRanges": [
+          {
+            "CidrIp": "13.52.173.92/32",
+            "Description": "OPen VPN IP"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ]
+  }
+]

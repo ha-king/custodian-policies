@@ -1,0 +1,15 @@
+Region,GroupId,GroupName
+us-east-1,sg-05dd559fe5768e4c2,launch-wizard-2
+us-east-1,sg-088155398cf0154b4,launch-wizard-1
+us-east-1,sg-0ec29b81808257541,launch-wizard-6
+us-east-2,sg-02936c084adf29366,launch-wizard-7
+us-east-2,sg-03e42235d19b4be19,launch-wizard-2
+us-east-2,sg-052432e2fb17f0284,launch-wizard-4
+us-east-2,sg-056fe167470bac236,rds-launch-wizard-1
+us-east-2,sg-069d992940da25acb,launch-wizard-3
+us-east-2,sg-09f92f5afd4bdb150,launch-wizard-6
+us-east-2,sg-0fb867adf3b02b290,launch-wizard-5
+us-west-1,sg-0bb5e4378c1f730df,Ubuntu 18-04 LTS - Bionic-18-04 LTS 20180814-AutogenByAWSMP-
+us-west-1,sg-0d118d0629b628263,public_access
+us-west-1,sg-0d6d208cac31926c9,g2g_jira_public
+us-west-1,sg-0f81fa10a028e433c,Ubuntu 18-04 LTS - Bionic-18-04 LTS 20180814-AutogenByAWSMP-1

@@ -1,0 +1,86 @@
+{
+  "policy": {
+    "name": "security-groups-unused",
+    "resource": "security-group",
+    "filters": [
+      "unused"
+    ]
+  },
+  "version": "0.9",
+  "execution": {
+    "id": "d9c2d4b6-61eb-4580-b970-88730b76784a",
+    "start": 1594330375.27385,
+    "end_time": 1594330378.191921,
+    "duration": 2.9180710315704346
+  },
+  "config": {
+    "region": "us-west-1",
+    "regions": [
+      "us-west-1"
+    ],
+    "cache": "~/.cache/cloud-custodian.cache",
+    "profile": null,
+    "account_id": "302099125418",
+    "assume_role": null,
+    "external_id": null,
+    "log_group": null,
+    "tracer": null,
+    "metrics_enabled": null,
+    "metrics": null,
+    "output_dir": "/home/custodian/output",
+    "cache_period": 15,
+    "dryrun": false,
+    "authorization_file": null,
+    "subparser": "run",
+    "config": null,
+    "configs": [
+      "/home/custodian/sg-unused.yml"
+    ],
+    "policy_filters": [],
+    "resource_types": [],
+    "verbose": 1,
+    "quiet": null,
+    "debug": false,
+    "skip_validation": false,
+    "command": "c7n.commands.run",
+    "vars": null
+  },
+  "sys-stats": {
+    "snapshot_time": 2.9181013107299805,
+    "cache_size": 48733,
+    "num_fds": 1,
+    "cpu_user": 0.31000000000000005,
+    "cpu_system": 0.01999999999999999,
+    "num_ctx_switches_voluntary": 124,
+    "num_ctx_switches_involuntary": 50,
+    "read_count": 741,
+    "write_count": 56,
+    "write_bytes": 172032,
+    "read_bytes": 12288,
+    "rss": 5808128,
+    "vms": 7749632,
+    "shared": 114688,
+    "data": 7749632
+  },
+  "api-stats": {
+    "ec2.DescribeSecurityGroups": 2,
+    "ec2.DescribeNetworkInterfaces": 1,
+    "lambda.ListFunctions": 1,
+    "tagging.GetResources": 1,
+    "autoscaling.DescribeLaunchConfigurations": 1
+  },
+  "metrics": [
+    {
+      "MetricName": "ResourceCount",
+      "Timestamp": "2020-07-09T21:32:58.188196",
+      "Value": 0,
+      "Unit": "Count"
+    },
+    {
+      "MetricName": "ResourceTime",
+      "Timestamp": "2020-07-09T21:32:58.188212",
+      "Value": 2.8918113708496094,
+      "Unit": "Seconds"
+    }
+  ]
+}

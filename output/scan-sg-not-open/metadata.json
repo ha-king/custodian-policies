@@ -1,34 +1,36 @@
 {
   "policy": {
-    "name": "scan-sg-wide-open",
+    "name": "scan-sg-not-open",
     "resource": "security-group",
     "filters": [
       {
         "type": "ingress",
         "IpProtocol": "tcp",
-        "Ports": [
-          22,
-          3389
-        ],
-        "Cidr": "0.0.0.0/0"
+        "Cidr": {
+          "value": [
+            "13.52.173.92/32"
+          ],
+          "op": "in",
+          "key": "CidrIp"
+        }
       }
     ]
   },
   "version": "0.9",
   "execution": {
-    "id": "8a20f67c-22d9-46ce-aa5f-5ed0450fb6ca",
-    "start": 1591218684.1285255,
-    "end_time": 1591218684.763936,
-    "duration": 0.6354105472564697
+    "id": "cf3de877-01a4-44d8-ac90-0cf8e5e97508",
+    "start": 1594237084.0807197,
+    "end_time": 1594237085.0710423,
+    "duration": 0.9903225898742676
   },
   "config": {
-    "region": "us-west-2",
+    "region": "us-west-1",
     "regions": [
-      "us-west-2"
+      "us-west-1"
     ],
     "cache": "~/.cache/cloud-custodian.cache",
-    "profile": "g2g-products",
-    "account_id": "935708420235",
+    "profile": null,
+    "account_id": "302099125418",
     "assume_role": null,
     "external_id": null,
     "log_group": null,
@@ -42,7 +44,7 @@
     "subparser": "run",
     "config": null,
     "configs": [
-      "/home/custodian/sg-policy.yml"
+      "/home/custodian/sg-not-open.yml"
     ],
     "policy_filters": [],
     "resource_types": [],
@@ -54,18 +56,19 @@
     "vars": null
   },
   "sys-stats": {
-    "snapshot_time": 0.635430097579956,
+    "snapshot_time": 0.9903478622436523,
     "num_fds": 1,
-    "cpu_user": 0.09999999999999998,
-    "cpu_system": 0.03,
-    "num_ctx_switches_voluntary": 53,
-    "num_ctx_switches_involuntary": 9,
-    "read_count": 117,
+    "cpu_user": 0.13,
+    "cpu_system": 0.04000000000000001,
+    "num_ctx_switches_voluntary": 93,
+    "num_ctx_switches_involuntary": 65,
+    "read_count": 224,
     "write_count": 15,
     "read_bytes": 12288,
-    "rss": 3444736,
-    "vms": 5390336,
-    "data": 5390336
+    "rss": 3559424,
+    "vms": 5656576,
+    "shared": 12288,
+    "data": 5656576
   },
   "api-stats": {
     "ec2.DescribeSecurityGroups": 1
@@ -73,14 +76,20 @@
   "metrics": [
     {
       "MetricName": "ResourceCount",
-      "Timestamp": "2020-06-03T21:11:24.760246",
-      "Value": 0,
+      "Timestamp": "2020-07-08T19:38:05.064357",
+      "Value": 17,
       "Unit": "Count"
     },
     {
       "MetricName": "ResourceTime",
-      "Timestamp": "2020-06-03T21:11:24.760269",
-      "Value": 0.608727216720581,
+      "Timestamp": "2020-07-08T19:38:05.064378",
+      "Value": 0.9562737941741943,
+      "Unit": "Seconds"
+    },
+    {
+      "MetricName": "ActionTime",
+      "Timestamp": "2020-07-08T19:38:05.070973",
+      "Value": 1.2159347534179688e-05,
       "Unit": "Seconds"
     }
   ]

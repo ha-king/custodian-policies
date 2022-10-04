@@ -1,0 +1,3 @@
+Region,GroupId,GroupName
+us-west-1,sg-03ee24ef377af6ff4,ALB-PUBLIC
+us-west-1,sg-0efcd6f98dd5fb134,ELB-PUBLIC

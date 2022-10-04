@@ -1,0 +1,35 @@
+GroupId,GroupName
+sg-03e69d8b86a28f74e,ops-jira-sg
+sg-0486327d,launch-wizard-1
+sg-05af10bde2b1365fa,davids-home-ip
+sg-06e01da7892503d00,launch-wizard-6
+sg-06f16753ec33d8d4d,Bastion SSH
+sg-07bf34c8e212f8484,launch-wizard-5
+sg-081f8fea2621d512f,G2G-Wordpress-Stage
+sg-091766319a0bf099e,rds-launch-wizard-3
+sg-0a7c5402d2070dc76,Test_Canon_Apache
+sg-0adbcdd8686b9f101,Stash Restriction
+sg-0b64062141fabbf4a,BelAir
+sg-0bc7c1d5911ba934a,g2g-elk-sg
+sg-0cbc655527ce727f0,david diperna
+sg-0ce1c075,launch-wizard-3
+sg-0d41589d8ccae4ffd,rds-launch-wizard-2
+sg-0e66a47672711de16,ScanTest
+sg-0ee8c08173be783b6,david diperna
+sg-1a8d867c,TrustWayne
+sg-1f9a4379,TrustG2GVPN
+sg-205bf558,rds-launch-wizard-1
+sg-2986054f,Bitbucket-port-range
+sg-2e1f6656,ops-wiki
+sg-300f5f57,CentOS 7 -x86_64- - with Updates HVM-1602-AutogenByAWSMP-
+sg-54733f33,G2G-ConnectALL
+sg-5a350123,demojira
+sg-6785a800,Microsoft Windows Server 2012 RTM-2017-04-12-AutogenByAWSMP-
+sg-7123fd17,TrustG2GVPN
+sg-72624815,Microsoft Windows Server 2012 RTM-2017-04-12-AutogenByAWSMP-1
+sg-9f8637e6,launch-wizard-2
+sg-a19554c7,Ansible-Test
+sg-a3c3bddb,Ubuntu 18-04 LTS - Bionic-18-04 LTS 20180522-AutogenByAWSMP-
+sg-a9e1f0d0,CentOS 7 -x86_64- - with Updates HVM-1803_01-AutogenByAWSMP-
+sg-eba84b8d,G2G-DoorsNG6
+sg-fbbf8982,canon-jira-db

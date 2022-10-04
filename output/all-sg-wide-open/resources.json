@@ -1,0 +1,137 @@
+[
+  {
+    "Description": "default VPC security group",
+    "GroupName": "default",
+    "IpPermissions": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": [
+          {
+            "GroupId": "sg-75b3f70c",
+            "UserId": "302099125418"
+          }
+        ]
+      },
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [
+          {
+            "CidrIpv6": "::/0"
+          }
+        ],
+        "PrefixListIds": [],
+        "ToPort": 22,
+        "UserIdGroupPairs": []
+      }
+    ],
+    "OwnerId": "302099125418",
+    "GroupId": "sg-75b3f70c",
+    "IpPermissionsEgress": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ],
+    "VpcId": "vpc-7d8e721a",
+    "MatchedIpPermissions": [
+      {
+        "FromPort": 22,
+        "IpProtocol": "tcp",
+        "ToPort": 22,
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ]
+  },
+  {
+    "Description": "Security group for Kubernetes ELB a2c1eda25910111e882d1028d2084a7a (default/guestbook)",
+    "GroupName": "k8s-elb-a2c1eda25910111e882d1028d2084a7a",
+    "IpPermissions": [
+      {
+        "FromPort": 3,
+        "IpProtocol": "icmp",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 4,
+        "UserIdGroupPairs": []
+      },
+      {
+        "FromPort": 3000,
+        "IpProtocol": "tcp",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "ToPort": 3000,
+        "UserIdGroupPairs": []
+      }
+    ],
+    "OwnerId": "302099125418",
+    "GroupId": "sg-7ab8e90a",
+    "IpPermissionsEgress": [
+      {
+        "IpProtocol": "-1",
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ],
+    "Tags": [
+      {
+        "Key": "kubernetes.io/cluster/Demo",
+        "Value": "owned"
+      }
+    ],
+    "VpcId": "vpc-ec5ea894",
+    "MatchedIpPermissions": [
+      {
+        "FromPort": 3000,
+        "IpProtocol": "tcp",
+        "ToPort": 3000,
+        "IpRanges": [
+          {
+            "CidrIp": "0.0.0.0/0"
+          }
+        ],
+        "Ipv6Ranges": [],
+        "PrefixListIds": [],
+        "UserIdGroupPairs": []
+      }
+    ]
+  }
+]

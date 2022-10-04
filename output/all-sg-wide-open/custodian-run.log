@@ -1,0 +1,392 @@
+2020-06-04 22:58:25,262 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-1 c7n:0.9
+2020-06-04 22:58:25,901 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 22:58:25,902 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 22:58:25,903 - custodian.resources.securitygroup - DEBUG - Filtered from 7 to 3 securitygroup
+2020-06-04 22:58:25,904 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-1 count:3 time:0.64
+2020-06-04 22:58:25,909 - custodian.output - DEBUG - metric:ResourceCount Count:3 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 22:58:25,910 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 22:58:31,926 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-2 c7n:0.9
+2020-06-04 22:58:32,445 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 22:58:32,447 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 22:58:32,448 - custodian.resources.securitygroup - DEBUG - Filtered from 11 to 7 securitygroup
+2020-06-04 22:58:32,449 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-2 count:7 time:0.52
+2020-06-04 22:58:32,460 - custodian.output - DEBUG - metric:ResourceCount Count:7 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 22:58:32,460 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 22:58:38,566 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-1 c7n:0.9
+2020-06-04 22:58:39,266 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 22:58:39,267 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 22:58:39,269 - custodian.resources.securitygroup - DEBUG - Filtered from 20 to 4 securitygroup
+2020-06-04 22:58:39,270 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-1 count:4 time:0.70
+2020-06-04 22:58:39,280 - custodian.output - DEBUG - metric:ResourceCount Count:4 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 22:58:39,280 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 22:58:45,453 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-2 c7n:0.9
+2020-06-04 22:58:46,191 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 22:58:46,194 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 22:58:46,196 - custodian.resources.securitygroup - DEBUG - Filtered from 7 to 0 securitygroup
+2020-06-04 22:58:46,197 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-2 count:0 time:0.74
+2020-06-04 22:58:46,207 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 22:58:46,207 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 22:58:52,246 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-1 c7n:0.9
+2020-06-04 22:58:52,806 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 22:58:52,807 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 22:58:52,810 - custodian.resources.securitygroup - DEBUG - Filtered from 10 to 0 securitygroup
+2020-06-04 22:58:52,810 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-1 count:0 time:0.56
+2020-06-04 22:58:52,819 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 22:58:52,819 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 22:58:59,028 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-2 c7n:0.9
+2020-06-04 22:58:59,419 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 22:58:59,420 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 22:58:59,421 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-04 22:58:59,422 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-2 count:0 time:0.39
+2020-06-04 22:58:59,431 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 22:58:59,432 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 22:59:05,462 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-1 c7n:0.9
+2020-06-04 22:59:06,171 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 22:59:06,172 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 22:59:06,175 - custodian.resources.securitygroup - DEBUG - Filtered from 26 to 2 securitygroup
+2020-06-04 22:59:06,176 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-1 count:2 time:0.71
+2020-06-04 22:59:06,183 - custodian.output - DEBUG - metric:ResourceCount Count:2 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 22:59:06,184 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 22:59:12,105 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-2 c7n:0.9
+2020-06-04 22:59:12,798 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 22:59:12,799 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 22:59:12,801 - custodian.resources.securitygroup - DEBUG - Filtered from 12 to 0 securitygroup
+2020-06-04 22:59:12,802 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-2 count:0 time:0.70
+2020-06-04 22:59:12,811 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 22:59:12,811 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 22:59:18,831 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-1 c7n:0.9
+2020-06-04 22:59:19,324 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 22:59:19,326 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 22:59:19,327 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-04 22:59:19,328 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-1 count:0 time:0.50
+2020-06-04 22:59:19,336 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 22:59:19,337 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 22:59:25,119 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-2 c7n:0.9
+2020-06-04 22:59:25,922 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 22:59:25,923 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 22:59:25,924 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-04 22:59:25,925 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-2 count:0 time:0.81
+2020-06-04 22:59:25,934 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 22:59:25,934 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 22:59:31,955 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-1 c7n:0.9
+2020-06-04 22:59:33,068 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 22:59:33,069 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 22:59:33,072 - custodian.resources.securitygroup - DEBUG - Filtered from 20 to 2 securitygroup
+2020-06-04 22:59:33,073 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-1 count:2 time:1.12
+2020-06-04 22:59:33,082 - custodian.output - DEBUG - metric:ResourceCount Count:2 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 22:59:33,082 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 22:59:39,251 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-2 c7n:0.9
+2020-06-04 22:59:39,990 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 22:59:39,991 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 22:59:39,993 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-04 22:59:39,994 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-2 count:0 time:0.74
+2020-06-04 22:59:40,005 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 22:59:40,006 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 22:59:45,844 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-1 c7n:0.9
+2020-06-04 22:59:46,392 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 22:59:46,394 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 22:59:46,395 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-04 22:59:46,396 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-1 count:0 time:0.55
+2020-06-04 22:59:46,404 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 22:59:46,405 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 22:59:52,346 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-2 c7n:0.9
+2020-06-04 22:59:52,820 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 22:59:52,821 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 22:59:52,821 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-04 22:59:52,822 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-2 count:0 time:0.47
+2020-06-04 22:59:52,828 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 22:59:52,829 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 22:59:58,783 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-1 c7n:0.9
+2020-06-04 22:59:59,771 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 22:59:59,772 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 22:59:59,774 - custodian.resources.securitygroup - DEBUG - Filtered from 7 to 2 securitygroup
+2020-06-04 22:59:59,774 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-1 count:2 time:0.99
+2020-06-04 22:59:59,781 - custodian.output - DEBUG - metric:ResourceCount Count:2 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 22:59:59,781 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 23:00:05,624 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-2 c7n:0.9
+2020-06-04 23:00:06,596 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 23:00:06,598 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 23:00:06,599 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-04 23:00:06,600 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-2 count:0 time:0.98
+2020-06-04 23:00:06,608 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 23:00:06,609 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 23:00:12,281 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-1 c7n:0.9
+2020-06-04 23:00:12,889 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 23:00:12,890 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 23:00:12,892 - custodian.resources.securitygroup - DEBUG - Filtered from 5 to 1 securitygroup
+2020-06-04 23:00:12,892 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-1 count:1 time:0.61
+2020-06-04 23:00:12,901 - custodian.output - DEBUG - metric:ResourceCount Count:1 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 23:00:12,902 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 23:00:18,748 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-2 c7n:0.9
+2020-06-04 23:00:19,209 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 23:00:19,210 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 23:00:19,211 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-04 23:00:19,212 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-2 count:0 time:0.46
+2020-06-04 23:00:19,219 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 23:00:19,219 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 23:00:24,977 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-1 c7n:0.9
+2020-06-04 23:00:25,597 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 23:00:25,598 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 23:00:25,599 - custodian.resources.securitygroup - DEBUG - Filtered from 6 to 2 securitygroup
+2020-06-04 23:00:25,600 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-1 count:2 time:0.62
+2020-06-04 23:00:25,607 - custodian.output - DEBUG - metric:ResourceCount Count:2 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 23:00:25,608 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 23:00:31,882 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-2 c7n:0.9
+2020-06-04 23:00:32,473 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 23:00:32,474 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 23:00:32,475 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-04 23:00:32,476 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-2 count:0 time:0.59
+2020-06-04 23:00:32,484 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 23:00:32,485 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 23:00:38,599 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-1 c7n:0.9
+2020-06-04 23:00:39,106 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 23:00:39,107 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 23:00:39,108 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-04 23:00:39,109 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-1 count:0 time:0.51
+2020-06-04 23:00:39,118 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 23:00:39,118 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 23:00:45,070 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-2 c7n:0.9
+2020-06-04 23:00:45,529 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 23:00:45,530 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 23:00:45,531 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-04 23:00:45,532 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-2 count:0 time:0.46
+2020-06-04 23:00:45,542 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 23:00:45,543 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 23:00:51,605 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-1 c7n:0.9
+2020-06-04 23:00:52,238 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 23:00:52,239 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 23:00:52,241 - custodian.resources.securitygroup - DEBUG - Filtered from 5 to 0 securitygroup
+2020-06-04 23:00:52,242 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-1 count:0 time:0.64
+2020-06-04 23:00:52,250 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 23:00:52,250 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 23:00:58,076 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-2 c7n:0.9
+2020-06-04 23:00:58,671 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 23:00:58,672 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 23:00:58,673 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-04 23:00:58,674 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-2 count:0 time:0.60
+2020-06-04 23:00:58,681 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 23:00:58,681 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 23:01:04,580 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-1 c7n:0.9
+2020-06-04 23:01:05,278 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 23:01:05,279 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 23:01:05,282 - custodian.resources.securitygroup - DEBUG - Filtered from 30 to 17 securitygroup
+2020-06-04 23:01:05,283 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-1 count:17 time:0.70
+2020-06-04 23:01:05,294 - custodian.output - DEBUG - metric:ResourceCount Count:17 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 23:01:05,295 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 23:01:11,576 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-2 c7n:0.9
+2020-06-04 23:01:12,187 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 23:01:12,188 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 23:01:12,191 - custodian.resources.securitygroup - DEBUG - Filtered from 14 to 10 securitygroup
+2020-06-04 23:01:12,191 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-2 count:10 time:0.62
+2020-06-04 23:01:12,202 - custodian.output - DEBUG - metric:ResourceCount Count:10 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 23:01:12,202 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 23:01:18,096 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-1 c7n:0.9
+2020-06-04 23:01:19,302 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 23:01:19,302 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 23:01:19,307 - custodian.resources.securitygroup - DEBUG - Filtered from 55 to 20 securitygroup
+2020-06-04 23:01:19,307 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-1 count:20 time:1.21
+2020-06-04 23:01:19,320 - custodian.output - DEBUG - metric:ResourceCount Count:20 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 23:01:19,320 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-04 23:01:25,058 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-2 c7n:0.9
+2020-06-04 23:01:25,754 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-04 23:01:25,755 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-04 23:01:25,756 - custodian.resources.securitygroup - DEBUG - Filtered from 5 to 2 securitygroup
+2020-06-04 23:01:25,757 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-2 count:2 time:0.70
+2020-06-04 23:01:25,765 - custodian.output - DEBUG - metric:ResourceCount Count:2 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-04 23:01:25,765 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:46:01,634 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-1 c7n:0.9
+2020-06-05 12:46:02,497 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:46:02,498 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:46:02,499 - custodian.resources.securitygroup - DEBUG - Filtered from 7 to 3 securitygroup
+2020-06-05 12:46:02,500 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-1 count:3 time:0.86
+2020-06-05 12:46:02,510 - custodian.output - DEBUG - metric:ResourceCount Count:3 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:46:02,510 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:46:08,607 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-2 c7n:0.9
+2020-06-05 12:46:09,143 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:46:09,143 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:46:09,145 - custodian.resources.securitygroup - DEBUG - Filtered from 11 to 7 securitygroup
+2020-06-05 12:46:09,146 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-2 count:7 time:0.54
+2020-06-05 12:46:09,156 - custodian.output - DEBUG - metric:ResourceCount Count:7 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:46:09,156 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:46:14,877 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-1 c7n:0.9
+2020-06-05 12:46:15,525 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:46:15,526 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:46:15,529 - custodian.resources.securitygroup - DEBUG - Filtered from 20 to 4 securitygroup
+2020-06-05 12:46:15,530 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-1 count:4 time:0.65
+2020-06-05 12:46:15,538 - custodian.output - DEBUG - metric:ResourceCount Count:4 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:46:15,539 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:46:21,293 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-2 c7n:0.9
+2020-06-05 12:46:22,017 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:46:22,019 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:46:22,020 - custodian.resources.securitygroup - DEBUG - Filtered from 7 to 0 securitygroup
+2020-06-05 12:46:22,020 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-2 count:0 time:0.73
+2020-06-05 12:46:22,028 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:46:22,028 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:46:27,899 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-1 c7n:0.9
+2020-06-05 12:46:28,409 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:46:28,410 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:46:28,412 - custodian.resources.securitygroup - DEBUG - Filtered from 10 to 0 securitygroup
+2020-06-05 12:46:28,413 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-1 count:0 time:0.51
+2020-06-05 12:46:28,420 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:46:28,421 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:46:34,301 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-2 c7n:0.9
+2020-06-05 12:46:34,758 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:46:34,760 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:46:34,761 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-05 12:46:34,761 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-2 count:0 time:0.46
+2020-06-05 12:46:34,769 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:46:34,769 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:46:41,079 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-1 c7n:0.9
+2020-06-05 12:46:41,805 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:46:41,807 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:46:41,809 - custodian.resources.securitygroup - DEBUG - Filtered from 26 to 2 securitygroup
+2020-06-05 12:46:41,810 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-1 count:2 time:0.73
+2020-06-05 12:46:41,818 - custodian.output - DEBUG - metric:ResourceCount Count:2 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:46:41,819 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:46:47,685 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-2 c7n:0.9
+2020-06-05 12:46:48,316 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:46:48,318 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:46:48,320 - custodian.resources.securitygroup - DEBUG - Filtered from 12 to 0 securitygroup
+2020-06-05 12:46:48,321 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-2 count:0 time:0.63
+2020-06-05 12:46:48,330 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:46:48,330 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:46:54,265 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-1 c7n:0.9
+2020-06-05 12:46:54,699 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:46:54,700 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:46:54,701 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-05 12:46:54,702 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-1 count:0 time:0.44
+2020-06-05 12:46:54,709 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:46:54,709 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:47:01,347 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-2 c7n:0.9
+2020-06-05 12:47:01,764 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:47:01,764 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:47:01,765 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-05 12:47:01,766 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-2 count:0 time:0.42
+2020-06-05 12:47:01,775 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:47:01,776 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:47:07,502 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-1 c7n:0.9
+2020-06-05 12:47:08,268 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:47:08,269 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:47:08,272 - custodian.resources.securitygroup - DEBUG - Filtered from 20 to 2 securitygroup
+2020-06-05 12:47:08,273 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-1 count:2 time:0.77
+2020-06-05 12:47:08,282 - custodian.output - DEBUG - metric:ResourceCount Count:2 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:47:08,282 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:47:14,039 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-2 c7n:0.9
+2020-06-05 12:47:14,558 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:47:14,559 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:47:14,560 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-05 12:47:14,560 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-2 count:0 time:0.52
+2020-06-05 12:47:14,567 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:47:14,567 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:47:20,495 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-1 c7n:0.9
+2020-06-05 12:47:20,926 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:47:20,928 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:47:20,930 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-05 12:47:20,931 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-1 count:0 time:0.43
+2020-06-05 12:47:20,940 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:47:20,941 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:47:26,800 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-2 c7n:0.9
+2020-06-05 12:47:27,221 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:47:27,222 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:47:27,223 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-05 12:47:27,224 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-2 count:0 time:0.42
+2020-06-05 12:47:27,232 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:47:27,232 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:47:32,971 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-1 c7n:0.9
+2020-06-05 12:47:33,549 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:47:33,550 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:47:33,552 - custodian.resources.securitygroup - DEBUG - Filtered from 7 to 2 securitygroup
+2020-06-05 12:47:33,552 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-1 count:2 time:0.58
+2020-06-05 12:47:33,562 - custodian.output - DEBUG - metric:ResourceCount Count:2 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:47:33,563 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:47:39,310 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-2 c7n:0.9
+2020-06-05 12:47:39,966 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:47:39,968 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:47:39,969 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-05 12:47:39,970 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-2 count:0 time:0.66
+2020-06-05 12:47:39,979 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:47:39,979 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:47:45,949 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-1 c7n:0.9
+2020-06-05 12:47:46,404 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:47:46,405 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:47:46,407 - custodian.resources.securitygroup - DEBUG - Filtered from 5 to 1 securitygroup
+2020-06-05 12:47:46,407 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-1 count:1 time:0.46
+2020-06-05 12:47:46,413 - custodian.output - DEBUG - metric:ResourceCount Count:1 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:47:46,414 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:47:52,304 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-2 c7n:0.9
+2020-06-05 12:47:52,715 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:47:52,716 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:47:52,717 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-05 12:47:52,718 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-2 count:0 time:0.41
+2020-06-05 12:47:52,726 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:47:52,727 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:47:58,756 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-1 c7n:0.9
+2020-06-05 12:47:59,250 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:47:59,251 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:47:59,253 - custodian.resources.securitygroup - DEBUG - Filtered from 6 to 2 securitygroup
+2020-06-05 12:47:59,254 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-1 count:2 time:0.50
+2020-06-05 12:47:59,264 - custodian.output - DEBUG - metric:ResourceCount Count:2 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:47:59,264 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:48:05,128 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-2 c7n:0.9
+2020-06-05 12:48:05,658 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:48:05,660 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:48:05,661 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-05 12:48:05,662 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-2 count:0 time:0.53
+2020-06-05 12:48:05,672 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:48:05,673 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:48:11,364 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-1 c7n:0.9
+2020-06-05 12:48:11,902 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:48:11,903 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:48:11,904 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-05 12:48:11,905 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-1 count:0 time:0.54
+2020-06-05 12:48:11,914 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:48:11,915 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:48:17,678 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-2 c7n:0.9
+2020-06-05 12:48:18,145 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:48:18,147 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:48:18,148 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-05 12:48:18,149 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-2 count:0 time:0.47
+2020-06-05 12:48:18,159 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:48:18,160 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:48:23,873 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-1 c7n:0.9
+2020-06-05 12:48:24,496 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:48:24,497 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:48:24,498 - custodian.resources.securitygroup - DEBUG - Filtered from 5 to 0 securitygroup
+2020-06-05 12:48:24,499 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-1 count:0 time:0.62
+2020-06-05 12:48:24,506 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:48:24,506 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:48:30,236 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-2 c7n:0.9
+2020-06-05 12:48:30,840 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:48:30,841 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:48:30,842 - custodian.resources.securitygroup - DEBUG - Filtered from 1 to 0 securitygroup
+2020-06-05 12:48:30,843 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-2 count:0 time:0.61
+2020-06-05 12:48:30,851 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:48:30,852 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:48:36,642 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-1 c7n:0.9
+2020-06-05 12:48:37,504 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:48:37,505 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:48:37,508 - custodian.resources.securitygroup - DEBUG - Filtered from 30 to 17 securitygroup
+2020-06-05 12:48:37,509 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-1 count:17 time:0.87
+2020-06-05 12:48:37,521 - custodian.output - DEBUG - metric:ResourceCount Count:17 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:48:37,522 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:48:43,188 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-east-2 c7n:0.9
+2020-06-05 12:48:43,748 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:48:43,749 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:48:43,752 - custodian.resources.securitygroup - DEBUG - Filtered from 14 to 10 securitygroup
+2020-06-05 12:48:43,753 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-east-2 count:10 time:0.56
+2020-06-05 12:48:43,763 - custodian.output - DEBUG - metric:ResourceCount Count:10 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:48:43,764 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:48:49,533 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-1 c7n:0.9
+2020-06-05 12:48:50,641 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:48:50,642 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:48:50,646 - custodian.resources.securitygroup - DEBUG - Filtered from 55 to 20 securitygroup
+2020-06-05 12:48:50,646 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-1 count:20 time:1.11
+2020-06-05 12:48:50,656 - custodian.output - DEBUG - metric:ResourceCount Count:20 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:48:50,657 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group
+2020-06-05 12:48:56,250 - custodian.policy - DEBUG - Running policy:all-sg-wide-open resource:security-group region:us-west-2 c7n:0.9
+2020-06-05 12:48:56,838 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-06-05 12:48:56,839 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-06-05 12:48:56,840 - custodian.resources.securitygroup - DEBUG - Filtered from 5 to 2 securitygroup
+2020-06-05 12:48:56,841 - custodian.policy - INFO - policy:all-sg-wide-open resource:security-group region:us-west-2 count:2 time:0.59
+2020-06-05 12:48:56,848 - custodian.output - DEBUG - metric:ResourceCount Count:2 policy:all-sg-wide-open restype:security-group scope:policy
+2020-06-05 12:48:56,849 - custodian.output - DEBUG - metric:ApiCalls Count:1 policy:all-sg-wide-open restype:security-group

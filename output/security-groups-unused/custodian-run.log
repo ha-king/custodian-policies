@@ -1,0 +1,114 @@
+2020-07-07 19:49:40,200 - custodian.policy - DEBUG - Running policy:security-groups-unused resource:security-group region:us-west-1 c7n:0.9
+2020-07-07 19:49:41,251 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-07-07 19:49:41,252 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-07-07 19:49:42,010 - custodian.resources.networkinterface - DEBUG - Filtered from 27 to 27 networkinterface
+2020-07-07 19:49:42,011 - custodian.filters - DEBUG - nics using 19 sgs, new refs 19 total 19
+2020-07-07 19:49:42,014 - custodian.cache - DEBUG - Using cache file /home/custodian/.cache/cloud-custodian.cache
+2020-07-07 19:49:42,886 - custodian.resources.securitygroup - DEBUG - Filtered from 57 to 57 securitygroup
+2020-07-07 19:49:42,887 - custodian.filters - DEBUG - sg-perm-refs using 5 sgs, new refs 4 total 23
+2020-07-07 19:49:42,895 - custodian.cache - DEBUG - Using cache file /home/custodian/.cache/cloud-custodian.cache
+2020-07-07 19:49:43,678 - custodian.resources.awslambda - DEBUG - Filtered from 4 to 4 awslambda
+2020-07-07 19:49:43,679 - custodian.filters - DEBUG - lambdas using 0 sgs, new refs 0 total 23
+2020-07-07 19:49:43,696 - custodian.cache - DEBUG - Using cache file /home/custodian/.cache/cloud-custodian.cache
+2020-07-07 19:49:44,078 - custodian.resources.launchconfig - DEBUG - Filtered from 0 to 0 launchconfig
+2020-07-07 19:49:44,079 - custodian.filters - DEBUG - launch-configs using 0 sgs, new refs 0 total 23
+2020-07-07 19:49:44,383 - custodian.filters - DEBUG - 0 of 34 groups w/ peered refs
+2020-07-07 19:49:44,385 - custodian.resources.securitygroup - DEBUG - Filtered from 57 to 34 securitygroup
+2020-07-07 19:49:44,387 - custodian.policy - INFO - policy:security-groups-unused resource:security-group region:us-west-1 count:34 time:4.19
+2020-07-07 19:49:44,399 - custodian.output - DEBUG - metric:ResourceCount Count:34 policy:security-groups-unused restype:security-group scope:policy
+2020-07-07 19:49:44,400 - custodian.output - DEBUG - metric:ApiCalls Count:7 policy:security-groups-unused restype:security-group
+2020-07-08 15:42:43,336 - custodian.policy - DEBUG - Running policy:security-groups-unused resource:security-group region:us-west-1 c7n:0.9
+2020-07-08 15:42:44,133 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-07-08 15:42:44,134 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-07-08 15:42:44,927 - custodian.resources.networkinterface - DEBUG - Filtered from 27 to 27 networkinterface
+2020-07-08 15:42:44,928 - custodian.filters - DEBUG - nics using 19 sgs, new refs 19 total 19
+2020-07-08 15:42:44,929 - custodian.cache - DEBUG - Using cache file /home/custodian/.cache/cloud-custodian.cache
+2020-07-08 15:42:45,873 - custodian.resources.securitygroup - DEBUG - Filtered from 57 to 57 securitygroup
+2020-07-08 15:42:45,874 - custodian.filters - DEBUG - sg-perm-refs using 5 sgs, new refs 4 total 23
+2020-07-08 15:42:45,880 - custodian.cache - DEBUG - Using cache file /home/custodian/.cache/cloud-custodian.cache
+2020-07-08 15:42:46,757 - custodian.resources.awslambda - DEBUG - Filtered from 4 to 4 awslambda
+2020-07-08 15:42:46,758 - custodian.filters - DEBUG - lambdas using 0 sgs, new refs 0 total 23
+2020-07-08 15:42:46,772 - custodian.cache - DEBUG - Using cache file /home/custodian/.cache/cloud-custodian.cache
+2020-07-08 15:42:47,162 - custodian.resources.launchconfig - DEBUG - Filtered from 0 to 0 launchconfig
+2020-07-08 15:42:47,163 - custodian.filters - DEBUG - launch-configs using 0 sgs, new refs 0 total 23
+2020-07-08 15:42:47,474 - custodian.filters - DEBUG - 0 of 34 groups w/ peered refs
+2020-07-08 15:42:47,482 - custodian.resources.securitygroup - DEBUG - Filtered from 57 to 34 securitygroup
+2020-07-08 15:42:47,483 - custodian.policy - INFO - policy:security-groups-unused resource:security-group region:us-west-1 count:34 time:4.15
+2020-07-08 15:42:47,496 - custodian.output - DEBUG - metric:ResourceCount Count:34 policy:security-groups-unused restype:security-group scope:policy
+2020-07-08 15:42:47,497 - custodian.output - DEBUG - metric:ApiCalls Count:7 policy:security-groups-unused restype:security-group
+2020-07-08 19:24:01,767 - custodian.policy - DEBUG - Running policy:security-groups-unused resource:security-group region:us-west-1 c7n:0.9
+2020-07-08 19:24:02,523 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-07-08 19:24:02,524 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-07-08 19:24:03,099 - custodian.resources.networkinterface - DEBUG - Filtered from 27 to 27 networkinterface
+2020-07-08 19:24:03,100 - custodian.filters - DEBUG - nics using 19 sgs, new refs 19 total 19
+2020-07-08 19:24:03,102 - custodian.cache - DEBUG - Using cache file /home/custodian/.cache/cloud-custodian.cache
+2020-07-08 19:24:03,614 - custodian.resources.securitygroup - DEBUG - Filtered from 57 to 57 securitygroup
+2020-07-08 19:24:03,614 - custodian.filters - DEBUG - sg-perm-refs using 5 sgs, new refs 4 total 23
+2020-07-08 19:24:03,620 - custodian.cache - DEBUG - Using cache file /home/custodian/.cache/cloud-custodian.cache
+2020-07-08 19:24:04,386 - custodian.resources.awslambda - DEBUG - Filtered from 4 to 4 awslambda
+2020-07-08 19:24:04,387 - custodian.filters - DEBUG - lambdas using 0 sgs, new refs 0 total 23
+2020-07-08 19:24:04,401 - custodian.cache - DEBUG - Using cache file /home/custodian/.cache/cloud-custodian.cache
+2020-07-08 19:24:04,788 - custodian.resources.launchconfig - DEBUG - Filtered from 0 to 0 launchconfig
+2020-07-08 19:24:04,789 - custodian.filters - DEBUG - launch-configs using 0 sgs, new refs 0 total 23
+2020-07-08 19:24:05,108 - custodian.filters - DEBUG - 0 of 34 groups w/ peered refs
+2020-07-08 19:24:05,111 - custodian.resources.securitygroup - DEBUG - Filtered from 57 to 34 securitygroup
+2020-07-08 19:24:05,112 - custodian.policy - INFO - policy:security-groups-unused resource:security-group region:us-west-1 count:34 time:3.34
+2020-07-08 19:24:05,127 - custodian.output - DEBUG - metric:ResourceCount Count:34 policy:security-groups-unused restype:security-group scope:policy
+2020-07-08 19:24:05,127 - custodian.output - DEBUG - metric:ApiCalls Count:7 policy:security-groups-unused restype:security-group
+2020-07-08 19:24:59,090 - custodian.policy - DEBUG - Running policy:security-groups-unused resource:security-group region:us-west-1 c7n:0.9
+2020-07-08 19:25:00,068 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-07-08 19:25:00,069 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-07-08 19:25:00,680 - custodian.resources.networkinterface - DEBUG - Filtered from 27 to 27 networkinterface
+2020-07-08 19:25:00,681 - custodian.filters - DEBUG - nics using 19 sgs, new refs 19 total 19
+2020-07-08 19:25:00,683 - custodian.cache - DEBUG - Using cache file /home/custodian/.cache/cloud-custodian.cache
+2020-07-08 19:25:01,180 - custodian.resources.securitygroup - DEBUG - Filtered from 57 to 57 securitygroup
+2020-07-08 19:25:01,181 - custodian.filters - DEBUG - sg-perm-refs using 5 sgs, new refs 4 total 23
+2020-07-08 19:25:01,188 - custodian.cache - DEBUG - Using cache file /home/custodian/.cache/cloud-custodian.cache
+2020-07-08 19:25:01,785 - custodian.resources.awslambda - DEBUG - Filtered from 4 to 4 awslambda
+2020-07-08 19:25:01,786 - custodian.filters - DEBUG - lambdas using 0 sgs, new refs 0 total 23
+2020-07-08 19:25:01,801 - custodian.cache - DEBUG - Using cache file /home/custodian/.cache/cloud-custodian.cache
+2020-07-08 19:25:02,171 - custodian.resources.launchconfig - DEBUG - Filtered from 0 to 0 launchconfig
+2020-07-08 19:25:02,172 - custodian.filters - DEBUG - launch-configs using 0 sgs, new refs 0 total 23
+2020-07-08 19:25:02,479 - custodian.filters - DEBUG - 0 of 34 groups w/ peered refs
+2020-07-08 19:25:02,481 - custodian.resources.securitygroup - DEBUG - Filtered from 57 to 34 securitygroup
+2020-07-08 19:25:02,482 - custodian.policy - INFO - policy:security-groups-unused resource:security-group region:us-west-1 count:34 time:3.39
+2020-07-08 19:25:02,496 - custodian.output - DEBUG - metric:ResourceCount Count:34 policy:security-groups-unused restype:security-group scope:policy
+2020-07-08 19:25:02,497 - custodian.output - DEBUG - metric:ApiCalls Count:7 policy:security-groups-unused restype:security-group
+2020-07-09 21:30:40,373 - custodian.policy - DEBUG - Running policy:security-groups-unused resource:security-group region:us-west-1 c7n:0.9
+2020-07-09 21:30:41,142 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-07-09 21:30:41,143 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-07-09 21:30:41,745 - custodian.resources.networkinterface - DEBUG - Filtered from 27 to 27 networkinterface
+2020-07-09 21:30:41,746 - custodian.filters - DEBUG - nics using 19 sgs, new refs 19 total 19
+2020-07-09 21:30:41,748 - custodian.cache - DEBUG - Using cache file /home/custodian/.cache/cloud-custodian.cache
+2020-07-09 21:30:42,594 - custodian.resources.securitygroup - DEBUG - Filtered from 57 to 57 securitygroup
+2020-07-09 21:30:42,596 - custodian.filters - DEBUG - sg-perm-refs using 5 sgs, new refs 4 total 23
+2020-07-09 21:30:42,604 - custodian.cache - DEBUG - Using cache file /home/custodian/.cache/cloud-custodian.cache
+2020-07-09 21:30:43,388 - custodian.resources.awslambda - DEBUG - Filtered from 4 to 4 awslambda
+2020-07-09 21:30:43,389 - custodian.filters - DEBUG - lambdas using 0 sgs, new refs 0 total 23
+2020-07-09 21:30:43,404 - custodian.cache - DEBUG - Using cache file /home/custodian/.cache/cloud-custodian.cache
+2020-07-09 21:30:43,755 - custodian.resources.launchconfig - DEBUG - Filtered from 0 to 0 launchconfig
+2020-07-09 21:30:43,756 - custodian.filters - DEBUG - launch-configs using 0 sgs, new refs 0 total 23
+2020-07-09 21:30:44,060 - custodian.filters - DEBUG - 0 of 34 groups w/ peered refs
+2020-07-09 21:30:44,063 - custodian.resources.securitygroup - DEBUG - Filtered from 57 to 34 securitygroup
+2020-07-09 21:30:44,064 - custodian.policy - INFO - policy:security-groups-unused resource:security-group region:us-west-1 count:34 time:3.69
+2020-07-09 21:30:56,930 - custodian.policy - INFO - policy:security-groups-unused action:delete resources:34 execution_time:12.85
+2020-07-09 21:30:56,947 - custodian.output - DEBUG - metric:ResourceCount Count:34 policy:security-groups-unused restype:security-group scope:policy
+2020-07-09 21:30:56,948 - custodian.output - DEBUG - metric:ApiCalls Count:41 policy:security-groups-unused restype:security-group
+2020-07-09 21:32:55,293 - custodian.policy - DEBUG - Running policy:security-groups-unused resource:security-group region:us-west-1 c7n:0.9
+2020-07-09 21:32:55,950 - custodian.cache - WARNING - Could not save cache /home/custodian/.cache/cloud-custodian.cache err: [Errno 2] No such file or directory: '/home/custodian/.cache/cloud-custodian.cache'
+2020-07-09 21:32:55,951 - custodian.cache - INFO - Generating Cache directory: /home/custodian/.cache.
+2020-07-09 21:32:56,546 - custodian.resources.networkinterface - DEBUG - Filtered from 27 to 27 networkinterface
+2020-07-09 21:32:56,546 - custodian.filters - DEBUG - nics using 19 sgs, new refs 19 total 19
+2020-07-09 21:32:56,548 - custodian.cache - DEBUG - Using cache file /home/custodian/.cache/cloud-custodian.cache
+2020-07-09 21:32:57,146 - custodian.resources.securitygroup - DEBUG - Filtered from 23 to 23 securitygroup
+2020-07-09 21:32:57,147 - custodian.filters - DEBUG - sg-perm-refs using 5 sgs, new refs 4 total 23
+2020-07-09 21:32:57,153 - custodian.cache - DEBUG - Using cache file /home/custodian/.cache/cloud-custodian.cache
+2020-07-09 21:32:57,822 - custodian.resources.awslambda - DEBUG - Filtered from 4 to 4 awslambda
+2020-07-09 21:32:57,823 - custodian.filters - DEBUG - lambdas using 0 sgs, new refs 0 total 23
+2020-07-09 21:32:57,837 - custodian.cache - DEBUG - Using cache file /home/custodian/.cache/cloud-custodian.cache
+2020-07-09 21:32:58,184 - custodian.resources.launchconfig - DEBUG - Filtered from 0 to 0 launchconfig
+2020-07-09 21:32:58,185 - custodian.filters - DEBUG - launch-configs using 0 sgs, new refs 0 total 23
+2020-07-09 21:32:58,186 - custodian.resources.securitygroup - DEBUG - Filtered from 23 to 0 securitygroup
+2020-07-09 21:32:58,187 - custodian.policy - INFO - policy:security-groups-unused resource:security-group region:us-west-1 count:0 time:2.89
+2020-07-09 21:32:58,195 - custodian.output - DEBUG - metric:ResourceCount Count:0 policy:security-groups-unused restype:security-group scope:policy
+2020-07-09 21:32:58,195 - custodian.output - DEBUG - metric:ApiCalls Count:6 policy:security-groups-unused restype:security-group

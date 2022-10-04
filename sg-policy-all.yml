@@ -1,0 +1,7 @@
+policies:
+  - name: all-sg-wide-open
+    resource: security-group
+    filters:
+      - type: ingress
+        IpProtocol: tcp
+        Cidr: "0.0.0.0/0"
